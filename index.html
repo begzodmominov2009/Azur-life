@@ -6,10 +6,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+        integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+        integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body>
-    <header>
+    <header id="header">
         <div class="container novbar">
             <div class="novbar-menus">
                 <div class="novbar-flex">
@@ -27,16 +34,16 @@
                     </div>
                 </div>
                 <ul class="novbar-languag">
-                    <li class="novbar-languag-en">
+                    <li class="novbar-languag-en novbar-languag_content">
                         <p>en</p>
                     </li>
-                    <li>
+                    <li class="novbar-languag_content">
                         <p>fr</p>
                     </li>
-                    <li>
+                    <li class="novbar-languag_content">
                         <p>ru</p>
                     </li>
-                    <li>
+                    <li class="novbar-languag_content">
                         <p>it</p>
                     </li>
                     <li>
@@ -92,7 +99,7 @@
                                     <p>лет <br> на рынке</p>
                                 </div>
                             </div>
-                             <div class="about-static-description">
+                            <div class="about-static-description">
                                 <div>
                                     <p class="about-static-description-number">27</p>
                                 </div>
@@ -100,7 +107,7 @@
                                     <p>постоянных <br> клиентов</p>
                                 </div>
                             </div>
-                             <div class="about-static-description">
+                            <div class="about-static-description">
                                 <div>
                                     <p class="about-static-description-number">240</p>
                                 </div>
@@ -117,8 +124,68 @@
                 </div>
             </div>
         </section>
+
+        <section id="obekt">
+            <div class="container">
+                <div class="obekt_content">
+                    <h1 class="obekt_title">Доступные объекты</h1>
+                    <p class="obekt_description">Смотреть все объекты</p>
+                </div>
+                <div class="owl-carousel owl-theme obekt_card">
+                    <div>
+                        <div id="obekt_card_img">
+                        </div>
+                        <div class="obekt_card_subtitle">
+                            <img width="10px" height="20px" src="./assets/home/head-map.png" alt="map">
+                            <p>Канны, Франция</p>
+                        </div>
+                        <div class="obekt_card_content">
+                            <p class="obekt_card_title">Апартаменты с видом на море <br> на Английской набережной
+                            </p>
+                            <p class="obekt_card_description">Полностью отремонтированная 3-комнатная <br> квартира
+                                на 5
+                                этаже в небольшой резиденции <br>
+                                на знаменитой Английской набережной. </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="life">
+            <div class="container">
+                <div class="life_contact">
+                    <div>
+                        <h1 class="life_title">Офис Azur Life </h1>
+                        <div class="life_content">
+                            <img src="./assets/home/head-map.png" alt="map">
+                            <p>Франция, бульвар Леклерк, 46, 06310, Болье-сюр-Мер</p>
+                        </div>
+                        <p class="life_description">Заключение сделки по недвижимости возможно в любом <br> удобном Вам
+                            формате. Посетите наш офис и
+                            познакомьтесь <br> с нашей командой лично. Если Вы предпочитаете онлайн <br> коммуникацию,
+                            наша
+                            команда с радостью организует такое <br> взаимодействие. Вам осталось решить только одно:
+                            <br>
+                            дистанционная сделка или личное присутствие.</p>
+                        <a class="life_link" href="">Назначить встречу</a>
+                    </div>
+                    <div>
+                        <img class="life_img" src="./assets/home/life-1.png" alt="img">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
     </main>
 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js"
+        integrity="sha512-pumBsjNRGGqkPzKHndZMaAG+bir374sORyzM3uulLV14lN5LyykqNk8eEeUlUkB3U0M4FApyaHraT65ihJhDpQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+        integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="./Js/main.js"></script>
 </body>
 

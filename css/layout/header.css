@@ -5,6 +5,10 @@
 header{
     position: fixed;
     width: 100%;
+    z-index: 250;
+}
+.shrink{
+    backdrop-filter: blur(10px);
 }
 
 .novbar-menus {
@@ -74,6 +78,9 @@ header{
     display: none;
    }
    .head-phone{
+    display: none;
+   }
+   .novbar-languag_content{
     display: none;
    }
 }
