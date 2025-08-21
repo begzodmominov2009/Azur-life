@@ -1,0 +1,79 @@
+.novbar {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+header{
+    position: fixed;
+    width: 100%;
+}
+
+.novbar-menus {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.novbar-flex {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.novbar-languag {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.head-phone {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+}
+
+.head-map {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+    border-right: 2px solid white;
+}
+
+.head-logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border-right: 2px solid white;
+}
+
+.novbar-title {
+    color: white;
+    font-size: 15px;
+}
+
+.novbar-subtitle {
+    color: white;
+    font-size: 15px;
+
+}
+.novbar-description{
+    color: white;
+    font-size: 15px;
+}
+.novbar-languag li {
+    color: white;
+    font-size: 14px;
+    cursor: pointer;
+}
+.novbar-languag-en{
+    border-bottom: 2px solid white;
+}
+@media (max-width:970px) {
+   .head-map{
+    display: none;
+   }
+   .head-phone{
+    display: none;
+   }
+}
