@@ -1,0 +1,136 @@
+#footer {
+    padding-top: 128px;
+    padding-bottom: 128px;
+    background-color: #1a1a1a;
+}
+
+.footer_title {
+    color: white;
+    font-size: 18px;
+}
+
+.footer_input {
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #FFFFFF66;
+    color: #ffff;
+    font-size: 14px;
+    max-width: 401px;
+    width: 100%;
+    outline: none;
+    margin-top: 20px;
+}
+
+.footer_form {
+    margin-top: 18px;
+}
+
+.footer_link {
+    color: white;
+    border-bottom: 2px solid white;
+    margin-top: 35px;
+    display: inline-block;
+}
+
+.footer-content {
+    display: flex;
+    align-items: center;
+    gap: 13px;
+    color: white;
+}
+
+.footer-contact {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    padding-top: 159px;
+}
+
+.footer-img {
+    gap: 170px;
+    display: flex;
+    align-items: center;
+}
+
+.footer-contact-2 {
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.footer-menus {
+    color: #FFFFFF66;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.footer-menus :first-child {
+    color: white;
+    font-size: 18px;
+}
+
+.footer-menus-2 {
+    color: #FFFFFF66;
+    flex-direction: column;
+    display: flex;
+    gap: 25px;
+}
+
+.footer-menus-2 :first-child {
+    color: white;
+    font-size: 18px;
+}
+
+.footer-menus-2 :last-child {
+    padding-top: 145px;
+}
+
+.footer-menus-2 :nth-child(5) {
+    line-height: 24px;
+}
+
+.footer-menus :nth-child(10) {
+    line-height: 24px;
+}
+
+@media (max-width:1140px) {
+    .footer-contact-2 {
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+
+    .footer-menus-2 {
+        margin-top: 80px;
+    }
+}
+
+@media (max-width:785px) {
+    .footer-contact-2 {
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .footer-contact {
+        padding-top: 80px;
+    }
+
+    .footer-menus-2 {
+        margin-top: 0px;
+    }
+
+    .footer-menus-2 :last-child {
+        padding-top: 55px;
+    }
+    #footer{
+        padding-top: 80px;
+    }
+}
+
+@media (max-width:455px) {
+    .footer-content-hide {
+        display: none;
+    }
+}

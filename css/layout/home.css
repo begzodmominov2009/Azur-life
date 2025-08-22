@@ -780,11 +780,6 @@
     border-radius: 20px;
 }
 
-.suitable_card:hover p {
-    font-size: 15px;
-    transition: 0.6s;
-}
-
 @media (max-width:750px) {
     .suitable_title {
         font-size: 65px;
