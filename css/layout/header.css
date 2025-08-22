@@ -20,7 +20,7 @@ header{
 .novbar-flex {
     display: flex;
     align-items: center;
-    gap: 40px;
+    gap: 20px;
 }
 
 .novbar-languag {
@@ -41,7 +41,7 @@ header{
     align-items: center;
     gap: 10px;
     cursor: pointer;
-    padding-right: 5px;
+    padding-right: 15px;
     border-right: 2px solid #878484;
 }
 
@@ -49,7 +49,7 @@ header{
     display: flex;
     align-items: center;
     gap: 10px;
-    padding-right: 5px;
+    padding-right: 15px;
     border-right: 2px solid #878484;
 }
 
