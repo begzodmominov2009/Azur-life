@@ -41,14 +41,16 @@ header{
     align-items: center;
     gap: 10px;
     cursor: pointer;
-    border-right: 2px solid white;
+    padding-right: 5px;
+    border-right: 2px solid #878484;
 }
 
 .head-logo {
     display: flex;
     align-items: center;
     gap: 10px;
-    border-right: 2px solid white;
+    padding-right: 5px;
+    border-right: 2px solid #878484;
 }
 
 .novbar-title {
@@ -83,4 +85,5 @@ header{
    .novbar-languag_content{
     display: none;
    }
+
 }
